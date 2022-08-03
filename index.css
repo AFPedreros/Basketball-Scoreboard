@@ -1,0 +1,47 @@
+@font-face {
+    font-family: GraublauWeb;
+    src: url("digitalDismay.otf") format("opentype");
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: blue;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    margin: 10px;
+    font-family: GraublauWeb;
+    font-size: 50px;
+}
+
+#home, #guest {
+    background-color: black;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: transparent;
+    color: whitesmoke;
+    padding: 8px 8px;
+    font-family: GraublauWeb;
+}
+
+#reset-btn {
+    margin: 30px;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

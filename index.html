@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h2>HOME</h2>
+                <h3 id="home">0</h3>
+                <div>
+                    <button id="home1-btn" onclick="hIncrement1()">+1</button>
+                    <button id="home2-btn" onclick="hIncrement2()">+2</button>
+                    <button id="home3-btn" onclick="hIncrement3()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h2>GUEST</h2>
+                <h3 id="guest">0</h3>
+                <div>
+                    <button id="guest1-btn" onclick="gIncrement1()">+1</button>
+                    <button id="gest2-btn" onclick="gIncrement2()">+2</button>
+                    <button id="gest3-btn" onclick="gIncrement3()">+3</button>
+                </div>
+            </div>
+        </div>
+        
+        <button id="reset-btn" onclick="reset()">Reset</button>
+        <script src="index.js"></script>
+    </body>
+</html>
